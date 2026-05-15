@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank H R | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Shashank H R, a Materials Engineer specializing in Additive Manufacturing and Product Development.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@100;200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/53df925c36.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">
+            <a href="#landing">Shashank H R</a>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Experience <i class="fas fa-chevron-down"
+                        style="font-size: 0.8em; margin-left: 5px;"></i></a>
+                <div class="dropdown-content">
+                    <a href="#fluent-metal">Fluent Metal</a>
+                    <a href="#velo3d">Velo3D</a>
+                    <a href="#gantri">Gantri</a>
+                    <a href="#chefman">Chefman</a>
+                    <a href="#desktop-metal">Desktop Metal</a>
+                    <a href="#ge-research">GE Global Research</a>
+                </div>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+        <!-- LANDING SECTION -->
+        <section id="landing" class="full-page">
+            <div class="bg-image landing-bg"></div>
+            <div class="overlay dark-overlay"></div>
+            <div class="content hero-content">
+                <h1 class="fade-in">Hi, I'm Shashank!</h1>
+                <p class="subtitle slide-up">A Materials Scientist and Engineer with 9+ years of experience in <wbr> Process&nbspEngineering.</p>
+                <div class="hero-buttons slide-up-delay">
+                    <a href="#education" class="btn btn-primary">Education</a>
+                    <a href="#fluent-metal" class="btn btn-primary">Work Experience</a>
+					<a href="assets/ShashankResume.pdf" target="_blank" class="btn btn-primary"><i
+                            class="fas fa-download"></i> &nbsp Download resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education" class="full-page section-container">
+            <div class="bg-image edu-bg"></div>
+            <div class="content glass-card edu">
+                <h2>Education</h2>
+                <div class="brief">
+                    <div class="edu-line">
+                        <img src="assets/schools/IISc_Logo.svg" alt="IISc Logo" class="school-logo iisc-logo">
+                        <h3>Bachelor's degree in <strong>Materials Science</strong></h3>
+                    </div>
+                    <div class="edu-line">
+                        <img src="assets/schools/Berkeley_white.svg" alt="UC Berkeley Logo" class="school-logo">
+                        <h3>Master's degree in <strong>Materials Science and Engineering</strong></h3>
+                    </div>
+                    <div class="edu-line">
+                        <img src="assets/schools/Penn_state_white.svg" alt="Penn State Logo" class="school-logo">
+                        <h3>Graduate certificate in <strong>Applied Statistics</strong></h3>
+                    </div>
+
+                    <button class="expand-btn" data-target="edu-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="edu-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Academic Journey</h2>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h3>The Pennsylvania State University</h3>
+                            <span class="timeline-date">May 2022 – Dec 2023</span>
+                        </div>
+						<h4 class="degree">Graduate Certificate in Applied Statistics</h4>
+                        <p class="gpa">Online | GPA: 4/4</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h3>University of California, Berkeley</h3>
+                            <span class="timeline-date">Aug 2016 – May 2017</span>
+                        </div>
+                        <h4 class="degree">Master of Engineering in Materials Science and Engineering</h4>
+                        <p class="gpa">Berkeley, CA | GPA: 3.94/4</p>
+						<p class="degree-info"><strong>Concentration:</strong> Advanced Structural Materials.</p><p class="degree-info"> <strong>Capstone Project:</strong> Improving Reliability of 3D
+                            Printed Materials in Biomedical Applications.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h3>Indian Institute of Science</h3>
+                            <span class="timeline-date">Aug 2012 – May 2016</span>
+                        </div>
+                        <h4 class="degree">Bachelor of Science in Materials</h4>
+                        <p class="gpa">Bengaluru, India | GPA: 7.4/8.0</p>
+                        <p class="degree-info">Awarded The Institute Medal for exceptional academic performance.
+                        </p>
+						<p class="degree-info"><strong>Bachelor's thesis:</strong> Design-of-Experiment Based Process Optimization for Single-Crystal CMSX-4® Ni-based Superalloy Processed Through Scanning Laser Epitaxy (SLE), a Metal Additive Manufacturing Process</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="full-page section-container">
+            <div class="bg-image skills-bg"></div>
+            <div class="content glass-card">
+                <h2>Core Competencies</h2>
+                <div class="brief">
+                    <p>Process Engineering, Additive manufacturing, Statistical analysis, Structural&nbspmaterials, and Cross-functional
+                        technical leadership.</p>
+					<p style="font-size: 0.9rem; font-weight: 200">All images are from my own work.</p>
+                    <button class="expand-btn" data-target="skills-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="skills-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Core competencies</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Statistics and Data analysis</h3>
+                            <ul>
+								<li>Design of Experiments (DOE)</li> 
+								<li>Multi-variate Analysis</li>
+							   <li>Regression Modeling</li>
+								<li>Hypothesis Testing</li>
+								<li>Proficient with JMP</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Materials and Metallurgy</h3>
+                            <ul>
+                                <li>Metal AM (Laser-based, sinter-based, and Molten Metal-based)</li>
+                                <li>AM Alloy process development (Fe, Cu, Ni, and Ti-base alloys) </li>
+                                <li>Mechanical Testing</li>
+                                <li>Microscopy and imaging (SEM/EDS, XRF, TEM, X-ray DR imaging)</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools &amp Software</h3>
+                            <ul>
+                                <li>JMP (Statistical Analysis)</li>
+                                <li>Scientific analysis with Python, Mathematica &amp Matlab</li>
+                                <li>Adobe Creative Suite</li>
+								<li>Basic CAD (Solidworks, OnShape)</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Systems and Process Engineering</h3>
+                            <ul>
+                                <li>Process Scaling and Optimization</li>
+								<li>New Product Development</li>
+                                <li>Root Cause &amp Failure Analysis (DFMEA)</li>
+                                <li>Vendor/Contract Manufacturer Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB: FLUENT METAL -->
+        <section id="fluent-metal" class="full-page section-container">
+            <div class="bg-image fluent-bg"></div>
+            <div class="content glass-card">
+                <div class="job-header">
+                    <h2>Fluent Metal</h2>
+                    <span class="badge">Dec 2023 – Present</span>
+                </div>
+                <div class="brief">
+                    <h3>Process Engineering Lead</h3>
+                    <p>End-to-end process development for molten metal jetting at Fluent Metal, a metal additive manufacturing and cladding startup.</p>
+                    <button class="expand-btn" data-target="fluent-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="fluent-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Fluent Metal</h2>
+                    <h3>Process Engineering Lead</h3>
+                    <p class="location-date"><i class="fas fa-map-marker-alt"></i> Cambridge, MA, USA <i
+                            class="far fa-calendar-alt calendar-icon"></i> December 2023 – Present</p>
+                    <p class="job-summary">Sole Process Engineer at Fluent Metal, a metal additive manufacturing and
+                        cladding startup.</p>
+                    <ul class="job-bullets degree-info">
+                        <li><strong>Process development for molten metal jetting:</strong> Led from-scratch process development for the proprietary molten metal drop-on-demand technology, successfully demonstrating printing capabilities across diverse materials including bronze, copper, stainless steel, silver, and tungsten.</li>
+                        <li><strong>Process characterization and optimization:</strong> Designed and executed DOEs under an NSF-SBIR grant to characterize multi-variate behavior; developed an optimization framework comprised of multiple models to achieve targeted drop properties.</li>
+                        <li><strong>Performance and throughput scaling:</strong> Optimized process parameters to stabilize printing, enabling continuous generation of tens of thousands of drops (>100x endurance increase) and boosting print frequency by >5x.</li>
+                        <li><strong>Documentation, reporting, and data analysis:</strong> Established infrastructure to document experiments, analyzed quantitative, semi-quantitative, and qualitative data, and generated reports for internal and external consumption.</li>
+                        <li><strong>Management of co-op/intern:</strong> Managed the co-op/intern hiring process end-to-end (reviewing applications, setting up and conducting virtual and in-person interviews, making and following up on offers), and also managed the hired co-op for six months.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB: VELO3D -->
+        <section id="velo3d" class="full-page section-container">
+            <div class="bg-image velo-bg"></div>
+            <div class="content glass-card">
+                <div class="job-header">
+                    <h2>Velo3D</h2>
+                    <span class="badge">Jun 2021 – Nov 2023</span>
+                </div>
+                <div class="brief">
+                    <h3>Senior Process Engineer</h3>
+                    <p>A member of the Process Team at Velo3D, a manufacturer of LPBF metal 3D printers with proprietary SupportFree™ technology.</p>
+                    <button class="expand-btn" data-target="velo-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="velo-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Velo3D</h2>
+                    <h3>Senior Process Engineer</h3>
+                    <p class="location-date"><i class="fas fa-map-marker-alt"></i> Campbell, CA, USA <i
+                            class="far fa-calendar-alt calendar-icon"></i> June 2021 – November 2023</p>
+                    <p class="job-summary">A member of the Process Team at Velo3D, a manufacturer of laser powder bed
+                        fusion based metal 3D printers with proprietary SupportFree™ technology.</p>
+                    <ul class="job-bullets">
+                        <li><strong>New material and process development:</strong> Developed many core, skin, and low-angle processes for Ni, Fe, Ti, and Al-based materials.</li>
+                        <li><strong>Laser stitching:</strong> Developed a novel algorithm to accurately adjust laser position and eliminate stitch lines when multiple lasers are used. This reduced mismatch from >300 µm to <10 µm across the entire build plate, and unlocked some novel applications for customers.</li>
+                        <li><strong>Laser process metrology:</strong> Analyzed metrology data generated by the lasing system during printing to monitor defects.</li>
+                        <li><strong>Metallurgical testing:</strong> Worked with external labs to coordinate heat treats, comprehensive mechanical testing, and microstructural analysis as part of the material qualification pipeline. Additionally, managed the purchase, operation, maintenance, and calibration of a few pieces of vital internal lab equipment.</li>
+                        <li><strong>Powder metallurgy:</strong> Led characterization and qualification for new powders, including chemistry, flowability measurement, PSD, etc.</li>
+                        <li><strong>Powder sourcing:</strong> Worked with metal powder vendors, domestic and international, to source specialty powders.</li>
+                        <li><strong>Customer escalations:</strong> Swiftly addressed customer concerns by tuning existing processes or developing new ones, as required.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB: GANTRI -->
+        <section id="gantri" class="full-page section-container">
+            <div class="bg-image gantri-bg"></div>
+            <div class="content glass-card">
+                <div class="job-header">
+                    <h2>Gantri</h2>
+                    <span class="badge">May 2020 – Jun 2021</span>
+                </div>
+                <div class="brief">
+                    <h3>Senior Materials Engineer</h3>
+                    <p>Led print process development and sustainable materials integration for a large fleet of FDM 3D printers.</p>
+                    <button class="expand-btn" data-target="gantri-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="gantri-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Gantri</h2>
+                    <h3>Senior Materials Engineer</h3>
+                    <p class="location-date"><i class="fas fa-map-marker-alt"></i> San Francisco, CA, USA | <i
+                            class="far fa-calendar-alt calendar-icon"></i> May 2020 – June 2021</p>
+                    <p class="job-summary">Sole Materials Engineer at Gantri, a producer of designer articles using 3D
+                        printing of sustainably sourced materials.</p>
+                    <ul class="job-bullets">
+                        <li><strong>Process engineering:</strong> Led print process development at the production facility, housing one of the largest fleets of FDM 3D printers at the time. Additionally, worked with vendors to specify and control incoming feedstock, for end-to-end process control.</li>
+                        <li><strong>Print farm productivity:</strong> Developed printer and process improvements to lower rejection rate and improve print speed, often over 50%.</li>
+						<li><strong>New material and process discovery:</strong> Explored and developed new material systems and finishing processes that could improve product quality, surface finish, and yield, while increasing productivity and reducing carbon footprint and labor costs.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB: CHEFMAN -->
+        <section id="chefman" class="full-page section-container">
+            <div class="bg-image chefman-bg"></div>
+            <div class="content glass-card">
+                <div class="job-header">
+                    <h2>Chefman/<wbr>CHEF&nbspiQ</h2>
+                    <span class="badge">Feb 2020 – Sep 2020</span>
+                </div>
+                <div class="brief">
+                    <h3>Product Development Engineer</h3>
+                    <p>End-to-end product development of kitchen appliances, collaborating closely with Asian contract
+                        manufacturers.</p>
+                    <button class="expand-btn" data-target="chefman-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="chefman-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Chefman</h2>
+                    <h3>Product Development Engineer</h3>
+                    <p class="location-date"><i class="fas fa-map-marker-alt"></i> Mahwah, NJ, USA | <i
+                            class="far fa-calendar-alt calendar-icon"></i> February 2020 – September 2020</p>
+                    <p class="job-summary">The team builds new products while working closely with contract
+                        manufacturers in Asia throughout the design process.</p>
+                    <ul class="job-bullets">
+                        <li><strong>New product development:</strong> Competitor benchmarking, prototyping, simulation and experimental evaluation of design, and materials selection for structural components and coatings. This includes Design Failure Mode and Effect Analysis (DFMEA).</li>
+                        <li><strong>Failure analysis and sustaining engineering:</strong> Work with the Customer Support department to identify top failures on returned malfunctioning products, perform failure analysis, and roll out changes before the next batch is mass-produced.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB: DESKTOP METAL -->
+        <section id="desktop-metal" class="full-page section-container">
+            <div class="bg-image desktopmetal-bg"></div>
+            <div class="content glass-card">
+                <div class="job-header">
+                    <h2>Desktop Metal</h2>
+                    <span class="badge">Jun 2017 – Dec 2019</span>
+                </div>
+                <div class="brief">
+                    <h3>Materials Engineer</h3>
+                    <p>Developed materials, processes, and equipment for the Studio System™ metal 3D printers.</p>
+                    <button class="expand-btn" data-target="dm-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="dm-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>Desktop Metal</h2>
+                    <h3>Materials Engineer</h3>
+                    <p class="location-date"><i class="fas fa-map-marker-alt"></i> Burlington, MA, USA | <i
+                            class="far fa-calendar-alt calendar-icon"></i> June 2017 – December 2019</p>
+                    <ul class="job-bullets">
+                        <li><strong>New alloy development:</strong> Led powder specification, sintering process development, microscopy and microanalysis, and Design-of-Experiments and statistics-backed process qualification for the development of five materials for the Studio System™ (including Stainless Steels, Tool Steels, low-alloy steels, and Ni-based superalloys).</li>
+                        <li><strong>Development of materials processing equipment:</strong> Worked closely with the hardware and applied science teams in the development of the Studio System™ furnace, one of the smallest vacuum furnaces capable of sintering stainless steels.</li>
+                        <li><strong>Post-processing:</strong> Developed and qualified post-processing techniques such as heat-treatment, case hardening, nitriding, and mechanochemical surface finishing of additively manufactured parts with partner vendors.</li>
+                        <li><strong>Material science-based solution development:</strong> Developed the getter system, which provides an atmosphere of required purity and allows sintering of certain sensitive materials on the low-cost Studio System™ furnace (US Patent application US20220065533A1).</li>
+                        <li><strong>Select other projects:</strong> Geometry accuracy and compensation (protected by 2 patents), toolpath planning, development of infrastructure to store experimental data (including IoT-based equipment logging).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB: GE GLOBAL -->
+        <section id="ge-research" class="full-page section-container">
+            <div class="bg-image ge-bg"></div>
+            <div class="content glass-card">
+                <div class="job-header">
+                    <h2>GE Global Research</h2>
+                    <span class="badge">May 2014 – Jul 2014</span>
+                </div>
+                <div class="brief">
+                    <h3>Internship</h3>
+                    <p>Investigated recrystallization due to compression straining in Ni-based superalloy GTD 444.</p>
+                    <button class="expand-btn" data-target="ge-details">Read More <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="ge-details" class="details-panel glass-panel">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <div class="details-content">
+                    <h2>GE Global Research</h2>
+                    <h3>Manufacturing and Materials Technologies Intern</h3>
+                    <p class="location-date"><i class="fas fa-map-marker-alt"></i> Bangalore, India | <i
+                            class="far fa-calendar-alt"></i> May 2014 – July 2014</p>
+                    <ul class="job-bullets">
+                        <li>Gained familiarity in Ni-based superalloys, particularly Single Crystal (SX) and Directionally Solidified (DS) superalloys.</li>
+                        <li>Performed systematic metallographic analysis and analyzed the micrographs using image processing techniques.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+<!--         PATENTS SECTION 
+        <section id="patents" class="full-page section-container">
+            <div class="bg-image doodle-bg"></div>
+            <div class="overlay colored-overlay"></div>
+            <div class="content glass-card" style="max-width: 800px; margin: 0 auto;">
+                <h2>Patents & Publications</h2>
+                <div class="patents-grid">
+                    <div class="patent-card">
+                        <div class="patent-image placeholder">
+                            <i class="far fa-image"></i>
+                        </div>
+                        <div class="patent-info">
+                            <h4>Adaptive 3D printing</h4>
+                            <p class="patent-id">US10996652B2 / US11718037B2</p>
+                        </div>
+                    </div>
+                    
+                    <div class="patent-card">
+                        <div class="patent-image placeholder">
+                            <i class="far fa-image"></i>
+                        </div>
+                        <div class="patent-info">
+                            <h4>Systems, devices, and methods for purifying atmosphere in a vacuum furnace</h4>
+                            <p class="patent-id">US20220065533A1 / US20250334333A1</p>
+                        </div>
+                    </div>
+                    
+                    <div class="patent-card">
+                        <div class="patent-image placeholder">
+                            <i class="far fa-image"></i>
+                        </div>
+                        <div class="patent-info">
+                            <h4>Nanoparticle delivery for controlling metal part density in additive manufacturing</h4>
+                            <p class="patent-id">US20180236541A1</p>
+                        </div>
+                    </div>
+                    
+                    <div class="patent-card">
+                        <div class="patent-image placeholder">
+                            <i class="far fa-image"></i>
+                        </div>
+                        <div class="patent-info">
+                            <h4>Metal deposition system</h4>
+                            <p class="patent-id">US20250135582A1</p>
+                        </div>
+                    </div>
+                    
+                    <div class="patent-card">
+                        <div class="patent-image placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="patent-info">
+                            <h4>Microstructures and Microhardness Properties of CMSX-4® Additively Fabricated Through Scanning Laser Epitaxy (SLE) (2017)</h4>
+                            <p class="patent-id">Scientific Journal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="full-page section-container">
+            <div class="bg-image doodle-bg"></div>
+            <div class="overlay dark-overlay"></div>
+            <div class="content glass-card" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2>Get in Touch</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">I am always open to discussing new projects, creative
+                    ideas, or opportunities to be part of your vision.</p>
+                <div class="contact-info" style="flex-direction: row; flex-wrap: wrap; justify-content: center;">
+                    <a href="mailto:me@shashankhr.com" class="contact-link"><i class="fas fa-envelope"></i>
+                        me@shashankhr.com</a>
+                    <a href="https://www.linkedin.com/in/shashankhr1" target="_blank" class="contact-link"><i
+                            class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="http://instagram.com/shashraghu" target="_blank" class="contact-link"><i
+                            class="fab fa-instagram"></i> @shashraghu</a>
+                    <a href="assets/ShashankResume.pdf" target="_blank" class="contact-link resume-link"><i
+                            class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
